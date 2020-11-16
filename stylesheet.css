@@ -1,0 +1,133 @@
+body{background-image: url("abstract-1900571_1920.jpg");
+}
+label.error{
+    position: absolute;
+    text-align: center;
+    margin-left: -6em;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 15em;
+    width: 500px;
+}
+#tab2 label.error{
+    position: absolute;
+    text-align: center;
+    margin-left: -15em;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 15em;
+    width: 500px;
+}
+#tab3 label.error{
+    position: absolute;
+    text-align: center;
+    margin-left: -15.5em;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 15em;
+    width: 500px;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 2em;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding: .5em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+}
+
+form{
+    text-align: center;
+    border: 4px solid black;
+    border-radius: 10px;
+    padding-bottom: 5em;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:lightblue;
+}
+
+label[for="Salary"]{
+        margin-top: 5em;
+        margin-bottom: 3em;
+}
+
+label[for="checkBox1"], label[for="checkBox2"]
+{
+        margin-left: .5em;
+
+}
+
+#checkBox2{
+    margin-left: 10em;
+}
+
+input[name="checkbox"] {
+    transform: scale(2);
+
+}
+
+button{
+    margin-top: 5em;
+}
+
+#tab2 h2{
+    margin-top: 5em;
+}
+#tab3 h2{
+    margin-top: 4em;
+}
+
+#inputCredit{
+
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+    margin-top: 3em;
+}
+
+#inputMonths{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 4em;
+}
+
+input[name=inputCredit]{
+    text-align: center;
+    font-size: xx-large;
+}
+input[name=inputMonths]{
+    text-align: center;
+    font-size: xx-large;
+}
+
+button{
+    width: 20%;
+}
+
+#SalarySubmit{
+    background-color: black;
+    border: 2px solid black;
+}
+#CreditSubmit{
+    background-color: black;
+    border: 2px solid black;
+}
+#fullSubmit{
+    background-color: black;
+    border: 2px solid black;
+}
+#approved{
+    margin-top: 5em;
+    width: 40%
+}
+#denied{
+    margin-top: 5em;
+    width: 40%
+}
